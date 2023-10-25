@@ -18,6 +18,7 @@ router.post('/', async (request, response) => {
     }
     const newHacker = {
       fbname: request.body.fbname,
+      fbLink: request.body.fbLink,
       username: request.body.username,
       status: request.body.status,
       position: request.body.position,

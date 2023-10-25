@@ -6,6 +6,9 @@ const hackerSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    fbLink: {
+      type: String,
+    },
     username: {
       type: String,
       required: true,
